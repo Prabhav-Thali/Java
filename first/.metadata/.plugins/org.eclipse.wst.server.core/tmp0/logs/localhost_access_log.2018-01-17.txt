@@ -1,0 +1,15 @@
+127.0.0.1 - - [17/Jan/2018:09:46:20 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:21 +0530] "GET /RoomBookFinalWar/ HTTP/1.1" 200 3407
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/css/bootstrap-responsive.min.css HTTP/1.1" 200 9162
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/css/style.css HTTP/1.1" 200 23733
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/css/pages/signin.css HTTP/1.1" 200 4083
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/css/font-awesome.css HTTP/1.1" 200 28711
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/css/bootstrap.min.css HTTP/1.1" 200 93445
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/js/jquery-1.7.2.min.js HTTP/1.1" 200 94842
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/js/bootstrap.js HTTP/1.1" 200 49600
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/js/signin.js HTTP/1.1" 200 255
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/PSLLogo.jpg HTTP/1.1" 200 6587
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/kc-logo-header%20(1).png HTTP/1.1" 200 6087
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/img/body-bg.png HTTP/1.1" 200 15984
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/img/signin/user.png HTTP/1.1" 200 3147
+0:0:0:0:0:0:0:1 - - [17/Jan/2018:09:46:22 +0530] "GET /RoomBookFinalWar/img/signin/password.png HTTP/1.1" 200 3267

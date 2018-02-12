@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.psl.Assignment7.invalidEmail&apos; to &apos;InvalidEmail&apos;&#x0D;&#x0A;- Original project: &apos;Assignment7&apos;&#x0D;&#x0A;- Original element: &apos;com.psl.Assignment7.invalidEmail&apos;&#x0D;&#x0A;- Renamed element: &apos;com.psl.Assignment7.InvalidEmail&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;invalidEmail&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.psl.Assignment7{invalidEmail.java[invalidEmail" matchStrategy="1" name="InvalidEmail" qualified="false" references="true" similarDeclarations="false" stamp="1507802575007" textual="false" version="1.0"/>
+</session>

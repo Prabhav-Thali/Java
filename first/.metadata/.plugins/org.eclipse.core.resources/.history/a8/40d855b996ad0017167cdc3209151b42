@@ -1,0 +1,33 @@
+package com.psl.assignment5;
+
+public class xo {
+
+	public static void main(String[] args) {
+		char mat[][] = { { 'x', 'o', 'o' }, { 'o', 'x', 'o' },
+				{ 'x', 'o', 'x' } };
+		int j, f, g, s;
+		for (int i = 0; i < 3; i++) {
+			f = 0;
+			g = 0;
+			for (j = 0, f = 0, g = 0, s = 0; j < 3; j++) {
+				if (mat[i][j] == 'x')
+					f++;
+				else
+					f--;
+				if (mat[j][i] == 'x')
+					g++;
+				else
+					g--;
+
+			}
+			if (mat[i][i] == 'x')
+				s++;
+			else 
+				s--;
+			if (f == 3 ||g==3||s==3)
+				System.out.println("winner");
+
+		}
+
+	}
+}

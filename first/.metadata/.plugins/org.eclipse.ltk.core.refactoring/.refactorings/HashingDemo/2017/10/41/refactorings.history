@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;HashingDemo/src/com.psl.HashSetDemo&apos;&#x0D;&#x0A;- Original project: &apos;HashingDemo&apos;&#x0D;&#x0A;- Destination element: &apos;HashingDemo/src/com.psl.HashSetDemo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     SortingList.java&#x0D;&#x0A;     Employee.java&#x0D;&#x0A;     sortBySalary.java&#x0D;&#x0A;     sortByName.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;com.psl.HashSetDemo" element1="/src&lt;{SortingList.java" element2="/src&lt;{Employee.java" element3="/src&lt;{sortBySalary.java" element4="/src&lt;{sortByName.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1507891242493" units="4" version="1.0"/>
+</session>

@@ -1,0 +1,47 @@
+data types:
+
+byte-1byte
+short-2bytes
+int 4bytes
+long 8bytes
+
+float 4 bytes 
+double 8bytes
+ 
+char 2 bytes 
+
+boolean 1 bit
+
+
+default no->double
+
+float pi=3.14f
+
+
+
+initialise objects to avoid null pointer exceptions
+
+
+DispDate obj;// reference
+		obj = new DispDate();// object
+
+new DispDate();
+
+if local and instance variables are same 
+		date = date;
+		month = month;
+		year = year;
+local variables have higher pref den global
+incase of numbers default is 0
+          strings            NULL
+          objects            NULL
+
+if explicitly param constructor den default will not be called
+call by creating new obj
+
+stack-compile time memory
+heap-real time
+
+ 
+this:
+

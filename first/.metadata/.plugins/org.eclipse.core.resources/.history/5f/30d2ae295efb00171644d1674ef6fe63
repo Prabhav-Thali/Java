@@ -1,0 +1,32 @@
+package test.java;
+
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import main.com.psl.dao.BookingDao;
+
+public class BookingTest {
+
+	BookingDao bookingDao;
+	@Before
+	public void setUp() throws Exception {
+		bookingDao = new BookingDao();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		bookingDao = null;
+	}
+	
+
+	@Test
+	public void testGetTrainingIDList() {
+		
+//		assertNotNull(bookingDao.getTrainingIDList(11));	
+	}
+
+}

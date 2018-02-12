@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.psl.Assignment8.FolderContents&apos; to &apos;ques1and2&apos;&#x0D;&#x0A;- Original project: &apos;Assignment8&apos;&#x0D;&#x0A;- Original element: &apos;com.psl.Assignment8.FolderContents&apos;&#x0D;&#x0A;- Renamed element: &apos;com.psl.Assignment8.ques1and2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FolderContents&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.psl.Assignment8{FolderContents.java[FolderContents" matchStrategy="1" name="ques1and2" qualified="false" references="true" similarDeclarations="false" stamp="1508477391923" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,38 @@
+package resources;
+
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import main.com.psl.dao.LocationDao;
+import main.com.psl.entity.Location;
+
+public class TestLocationDao {
+
+	LocationDao locationdao;
+	
+	
+	
+	@Before
+	public void setUp() throws Exception {
+		locationdao=new LocationDao();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testGetLocationList() {
+		
+		List<Location> list1 = locationdao.getLocationList();
+		assertNotNull(list1);
+		
+	}
+
+}

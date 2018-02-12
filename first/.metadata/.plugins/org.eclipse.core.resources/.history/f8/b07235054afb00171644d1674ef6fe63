@@ -1,0 +1,38 @@
+package com.psl.util;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.cfg.Configuration;
+
+public class HibernateUtil {
+
+	
+	private static SessionFactory sf;
+
+	
+	static{
+//		Configuration configuration = new Configuration().configure();
+//		StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder().
+//		applySettings(configuration.getProperties());
+//		sf=configuration.configure("hibernate.cfg.xml").buildSessionFactory();
+		
+		Configuration configuration = new Configuration().configure();
+		StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder().
+		applySettings(configuration.getProperties());
+		SessionFactory factory = configuration.buildSessionFactory(builder.build());
+		factory=configuration.configure("hibernate.cfg.xml").buildSessionFactory();
+	}
+	public static Session getSesssion() {
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sessionFactory.openSession();
+//		Session session=sf.openSession();
+		return session;
+	}
+
+	
+	
+	
+	
+	
+}

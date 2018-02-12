@@ -1,0 +1,11 @@
+package com.psl.assignment5;
+
+public class xo {
+
+    
+	
+	
+	public static void main(String[] args) {
+	int mat[][]=new int[5][5];
+} 
+}
